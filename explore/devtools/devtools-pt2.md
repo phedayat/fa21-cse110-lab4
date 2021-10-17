@@ -1,0 +1,2 @@
+1. The bug is that JavaScript treats the two input numbers as strings, when we want it to treat them like integers. So if `num1 = 1` and `num2 = 2`, we don't get `result = 3`, rather we get `result = 12`.
+2. I would fix it using the function `parseInt()`, which casts a string to an integer. If I needed floats or doubles, I would use their corresponding functions.
